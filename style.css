@@ -31,7 +31,7 @@ body {
   padding: 25px;
 }
 #image-cont {
-  background: url(/images/image-equilibrium.jpg) no-repeat center center/cover;
+  background: url(images/image-equilibrium.jpg) no-repeat center center/cover;
   height: 250px;
   border-radius: 10px;
   margin-bottom: 10px;
