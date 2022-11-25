@@ -31,10 +31,12 @@ body {
   padding: 25px;
 }
 #image-cont {
-  background: url(images/image-equilibrium.jpg) no-repeat center center/cover;
+  background: url(/images/image-equilibrium.jpg) no-repeat center center/cover;
   height: 250px;
   border-radius: 10px;
   margin-bottom: 10px;
+  z-index: 10;
+  /* position: relative; */
 }
 
 #text {
@@ -96,6 +98,17 @@ body {
 #creator > p > span {
   color: #8bacda;
 }
-#image-cont:hover {
+
+#view {
+  height: 100%;
+  background: #00fff7 url(/images/icon-view.svg) no-repeat center center/50px;
+  opacity: 0;
+  border-radius: 10px;
+}
+
+#view:hover {
   cursor: pointer;
+  opacity: 0.5;
+  position: relative;
+  z-index: 1;
 }
